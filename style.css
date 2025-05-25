@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&family=Roboto:wght@300;700&display=swap');
+
+body {
+  background: linear-gradient(#0f0f0f, #1a1a1a);
+  color: #e0e0e0;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+h1, h2 {
+  font-family: 'IM Fell English SC', serif;
+  color: #1d318a;
+  text-shadow: 2px 2px 4px #000;
+}
+header {
+  background-color: #222;
+  padding: 30px;
+  text-align: center;
+  border-bottom: 2px solid #444;
+}
+
+header p {
+  max-width: 700px;
+  margin: 0 auto;
+  font-style: italic;
+  color: #ccc;
+}
+
+section {
+  padding: 30px;
+  border-bottom: 1px solid #333;
+}
+
+section h2 {
+  border-bottom: 2px solid #201391;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+}
+.flutuando {
+  display: block;
+  margin: 0 auto 20px;
+  animation: flutuar 2s infinite ease-in-out;
+  box-shadow: 0 0 20px #6942f560;
+  border-radius: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+a {
+  color: #204783;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #555;
+  text-align: left;
+}
+
+th {
+  background-color: #333;
+  color: #429ef5;
+}
+
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  background: #222;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px #000;
+}
+
+label {
+  display: block;
+  margin-bottom: 15px;
+  color: #ddd;
+}
+
+input, select {
+  width: 100%;
+  padding: 8px;
+  border: none;
+  background-color: #333;
+  color: #fff;
+  border-radius: 4px;
+}
+
+input[type="submit"] {
+  background-color: #342d91;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+input[type="submit"]:hover {
+  background-color: #0b1f79;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9em;
+  background-color: #111;
+  border-top: 2px solid #444;
+  color: #888;
+}
+@keyframes flutuar {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
